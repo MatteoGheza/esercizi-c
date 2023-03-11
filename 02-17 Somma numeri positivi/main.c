@@ -22,11 +22,7 @@ int main(int argc, char *argv[]) {
 		scanf("%f", &num);
 	} while(num >= 0);
 	
-	printf("\nLa somma dei numeri positivi inseriti è:\t%.2f\n", somma);
-
-	//Blocca l'esecuzione del programma per permettere all'utente di leggere l'output
-	//quando il programma viene eseguito "standalone"
-	system("pause");
+	printf("\nLa somma dei numeri positivi inseriti ï¿½:\t%.2f\n", somma);
 
 	return 0;
 }

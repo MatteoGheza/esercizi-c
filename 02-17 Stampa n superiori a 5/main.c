@@ -23,7 +23,7 @@ int main(int argc, char *argv[]) {
 	
 	//Chiedi all'utente dei numeri, per riempire la lista numeri
 	for(i = 0; i < LEN; i++) {
-		printf("%d° numero:\t", i+1);
+		printf("%dï¿½ numero:\t", i+1);
 		scanf("%f", &numeri[i]);
 	}
 	
@@ -32,13 +32,9 @@ int main(int argc, char *argv[]) {
 	//Stampa tutti i numeri contenuti in numeri maggiori di MAGG_DI
 	for(i = 0; i < LEN; i++) {
 		if(numeri[i] > 5) {
-			printf("Il %d° numero: %.2f\n", i+1, numeri[i]);
+			printf("Il %dï¿½ numero: %.2f\n", i+1, numeri[i]);
 		}
 	}
-
-	//Blocca l'esecuzione del programma per permettere all'utente di leggere l'output
-	//quando il programma viene eseguito "standalone"
-	system("pause");
 
 	return 0;
 }

@@ -62,9 +62,5 @@ int main(int argc, char *argv[]) {
 	}
 	printf("\n\n");
 
-	//Blocca l'esecuzione del programma per permettere all'utente di leggere l'output
-	//quando il programma viene eseguito "standalone"
-	system("pause");
-
 	return 0;
 }

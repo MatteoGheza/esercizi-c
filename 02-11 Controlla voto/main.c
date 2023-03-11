@@ -15,7 +15,7 @@ int main(int argc, char *argv[]) {
 	//Definisce la codifica da utilizzare, per permettere di mostrare in output caratteri accentati (UTF-8 e UTF-16)
 	setlocale(LC_ALL, "");
 
-	printf("Controlla il voto di informatica: è sufficiente o insufficiente?\n");
+	printf("Controlla il voto di informatica: ï¿½ sufficiente o insufficiente?\n");
 	
 	printf("Inserisci il voto di informatica: ");
 	scanf("%f", &voto);
@@ -37,10 +37,6 @@ int main(int argc, char *argv[]) {
 	} else {
 		printf("INSUFFICIENTE\n");
 	}
-
-	//Blocca l'esecuzione del programma per permettere all'utente di leggere l'output
-	//quando il programma viene eseguito "standalone"
-	system("pause");
 
 	return 0;
 }

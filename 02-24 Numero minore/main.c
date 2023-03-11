@@ -17,33 +17,29 @@ int main(int argc, char *argv[]) {
 
 	printf("Trova il numero minore\n");
 	
-	printf("Inserisci il 1° numero: ");
+	printf("Inserisci il 1ï¿½ numero: ");
 	scanf("%f", &a);
-	printf("Inserisci il 2° numero: ");
+	printf("Inserisci il 2ï¿½ numero: ");
 	scanf("%f", &b);
-	printf("Inserisci il 3° numero: ");
+	printf("Inserisci il 3ï¿½ numero: ");
 	scanf("%f", &c);
 	
-	printf("\nIl numero maggiore è: ");
+	printf("\nIl numero maggiore ï¿½: ");
 	if(a < b) {
 		if(a < c) {
-			printf("1° numero, %.2f", a);
+			printf("1ï¿½ numero, %.2f", a);
 		} else {
-			printf("3° numero, %.2f", c);
+			printf("3ï¿½ numero, %.2f", c);
 		}
 	} else {
 		if(b < c) {
-			printf("2° numero, %.2f", b);
+			printf("2ï¿½ numero, %.2f", b);
 		} else {
-			printf("3° numero, %.2f", c);
+			printf("3ï¿½ numero, %.2f", c);
 		}
 	}
 	
 	printf("\n");
-
-	//Blocca l'esecuzione del programma per permettere all'utente di leggere l'output
-	//quando il programma viene eseguito "standalone"
-	system("pause");
 
 	return 0;
 }

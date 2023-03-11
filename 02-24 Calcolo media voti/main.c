@@ -33,7 +33,7 @@ int main(int argc, char *argv[]) {
 	
 	media = (v1 + v2 + v3)/3;
 	
-	printf("\n\nIl tuo risultato è: ");
+	printf("\n\nIl tuo risultato ï¿½: ");
 	if(media > 8) {
 		printf("OTTIMO");
 	} else if(media > 7) {
@@ -43,11 +43,7 @@ int main(int argc, char *argv[]) {
 	} else {
 		printf("INSUFFICIENTE");
 	}
-	printf("\nLa media è di %.2f.\n\n", media);
-
-	//Blocca l'esecuzione del programma per permettere all'utente di leggere l'output
-	//quando il programma viene eseguito "standalone"
-	system("pause");
+	printf("\nLa media ï¿½ di %.2f.\n\n", media);
 
 	return 0;
 }

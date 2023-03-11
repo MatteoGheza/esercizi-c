@@ -9,7 +9,7 @@
 	------------------------------------------------------------------
 */
 
-//Uso una costante per permettere di modificare il comporamento del codice più velocemente
+//Uso una costante per permettere di modificare il comporamento del codice piï¿½ velocemente
 #define LEN 3 //Lunghezza della lista di numeri
 
 int main(int argc, char *argv[]) {
@@ -23,7 +23,7 @@ int main(int argc, char *argv[]) {
 	printf("Trova il numero minore\n");
 	
 	for(i = 0; i < LEN; i++) {
-		printf("Inserisci il %d° numero: ", i+1); //Stampo i+1 perché gli indici degli array partono dallo 0
+		printf("Inserisci il %dï¿½ numero: ", i+1); //Stampo i+1 perchï¿½ gli indici degli array partono dallo 0
 		scanf("%f", &num[i]);
 	}
 	
@@ -33,11 +33,7 @@ int main(int argc, char *argv[]) {
 		}
 	}
 	
-	printf("\nIl numero minore è il %d°: %.2f\n", indexMax+1, num[indexMax]); //Stampo indexMax+1 perché gli indici degli array partono dallo 0
-
-	//Blocca l'esecuzione del programma per permettere all'utente di leggere l'output
-	//quando il programma viene eseguito "standalone"
-	system("pause");
+	printf("\nIl numero minore ï¿½ il %dï¿½: %.2f\n", indexMax+1, num[indexMax]); //Stampo indexMax+1 perchï¿½ gli indici degli array partono dallo 0
 
 	return 0;
 }
