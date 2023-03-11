@@ -23,12 +23,10 @@ int main(int argc, char *argv[]) {
 	
 	//Calcola area e perimetro e li mostra all'utente
 	area = base * altezza;
-	printf("L'area è di %.2f\t", area);
+	printf("L'area ï¿½ di %.2f\t", area);
 	
 	perimetro = base * 2 + altezza * 2;
-	printf("Il perimetro è di %.2f\n", perimetro);
-	
-	system("pause");
+	printf("Il perimetro ï¿½ di %.2f\n", perimetro);
 	
 	return 0;
 }

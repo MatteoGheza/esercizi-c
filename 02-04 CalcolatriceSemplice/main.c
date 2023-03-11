@@ -36,14 +36,11 @@ int main(int argc, char *argv[]) {
 	printf("Prodotto:\t%.2f\n", prodotto);
 	
 	if(n2 == 0) {
-		printf("Divisione:\tIMPOSSIBILE! Il divisore è 0.\n");
+		printf("Divisione:\tIMPOSSIBILE! Il divisore ï¿½ 0.\n");
 	} else {
 		rapporto = n1 / n2;
 		printf("Divisione:\t%.2f\n", rapporto);
 	}
-	
-	//Blocca l'esecuzione del programma per impedire che si chiuda prima che l'utente abbia letto i risultati
-	system("pause");
 
 	return 0;
 }
