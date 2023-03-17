@@ -12,7 +12,6 @@
 
 int main(int argc, char *argv[]) {
 	int mese = 0;
-	
 
 	//Definisce la codifica da utilizzare, per permettere di mostrare in output caratteri accentati (UTF-8 e UTF-16)
 	setlocale(LC_ALL, "");
