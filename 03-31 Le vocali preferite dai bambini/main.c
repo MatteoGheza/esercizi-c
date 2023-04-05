@@ -47,16 +47,20 @@ int main(int argc, char *argv[]) {
     if(contaA > votiVocalePreferita) {
         votiVocalePreferita = contaA;
         vocalePreferita = 'A';
-    } else if(contaE > votiVocalePreferita) {
+    }
+    if(contaE > votiVocalePreferita) {
         votiVocalePreferita = contaE;
         vocalePreferita = 'E';
-    } else if(contaI > votiVocalePreferita) {
+    }
+    if(contaI > votiVocalePreferita) {
         votiVocalePreferita = contaI;
         vocalePreferita = 'I';
-    } else if(contaO > votiVocalePreferita) {
+    }
+    if(contaO > votiVocalePreferita) {
         votiVocalePreferita = contaO;
         vocalePreferita = 'O';
-    } else if(contaU > votiVocalePreferita) {
+    }
+    if(contaU > votiVocalePreferita) {
         votiVocalePreferita = contaU;
         vocalePreferita = 'U';
     }
