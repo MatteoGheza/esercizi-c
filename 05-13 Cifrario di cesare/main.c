@@ -6,10 +6,10 @@
 #include <ctype.h>
 
 /*
-    ------------------------------------------------------------------------
-    Cifrare e decifrare delle stringhe con il C++ con il cifrario di Cesare
+    ----------------------------------------------------------------------
+    Cifrare e decifrare delle stringhe con il C con il cifrario di Cesare
     Matteo Gheza
-    ------------------------------------------------------------------------
+    ----------------------------------------------------------------------
 */
 
 #define MAX_MSG_LEN 200
