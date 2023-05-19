@@ -8,5 +8,10 @@
         "typeinfo": "c"
     },
     "C_Cpp.default.cppStandard": "c++17",
-    "C_Cpp.default.cStandard": "c11"
+    "C_Cpp.default.cStandard": "c11",
+    "cSpell.language": "en,it-IT,it",
+    "code-runner.runInTerminal": true,
+    "code-runner.enableAppInsights": false,
+    "code-runner.fileDirectoryAsCwd": false,
+    "code-runner.saveFileBeforeRun": true
 }
