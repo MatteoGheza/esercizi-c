@@ -20,7 +20,8 @@
 	"customizations": {
 		"vscode": {
 			"extensions": [
-				"ms-vscode.cpptools-extension-pack"
+				"formulahendry.code-runner",
+				"ms-vscode.cpptools"
 			]
 		}
 	}
