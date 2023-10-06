@@ -13,6 +13,8 @@
 	------------------------------------------------------------------
 */
 
+#define IVA 22
+
 int calcolaSconto(int eta);
 int calcolaPrezzoScontato(float prezzo, int sconto);
 int calcolaPrezzoIvato(float prezzo);
@@ -55,7 +57,7 @@ int calcolaPrezzoScontato(float prezzo, int sconto) {
 }
 
 int calcolaPrezzoIvato(float prezzo) {
-    return calcolaPrezzoScontato(prezzo, 22);
+    return prezzo + prezzo/100*IVA;
 }
 
 void offertaBiglietti(int eta, float prezzo) {
